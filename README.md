@@ -16,26 +16,26 @@ See https://github.com/SEI-SEA-1-25/intro-to-sequelize for steps on how to set u
 There is a complete list of Sequelize validations at https://sequelize.org/master/manual/validations-and-constraints.html#per-attribute-validations. Look through the list and determine which validations apply to the following data that we'll be inputting into our table.
 
 - first name 
-	1. not null
-	1. allowNull must be top level
-	1. "Joel" should work, null should not work
+  - not null
+  - allowNull must be top level
+  - "Joel" should work, null should not work
 - last name 
-	1. not null
-	1. allowNull must be top level
-	1. "Hughes" should work, null should not work
+  - not null
+  - allowNull must be top level
+  - "Hughes" should work, null should not work
 - user name 
-	1. min length, max length
-	1. must be unique - top level!
+  - min length, max length
+  - must be unique - top level!
 - email 
-	1. not null and is email
+  - not null and is email
 - phone number 
-	1. custom OR use built in, i.e. must be all numbers and length=10
+  - custom OR use built in, i.e. must be all numbers and length=10
 - age 
-	1. is numeric
-	1. has a minimum
-	1. has a maximum
+  - is numeric
+  - has a minimum
+  - has a maximum
 - shirt size 
-	1. must be "S" or "M" or "L"
+  - must be "S" or "M" or "L"
 
 Follow this workflow:
 
