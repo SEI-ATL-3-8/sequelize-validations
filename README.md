@@ -6,13 +6,14 @@
 - We'll only be focusing on validations in this course
 
 ### Set up a Sequelize project and add a Users table 
-	See https://github.com/SEI-SEA-1-25/intro-to-sequelize for steps on how to set up a Sequelize project
+See https://github.com/SEI-SEA-1-25/intro-to-sequelize for steps on how to set up a Sequelize project
 
 ### Plan what the data in our columns should look like
-	What columns should go into a Users table? What validations should we apply to these data?
+- What columns should go into a Users table? 
+- What validations should we apply to these data?
 
 ### Pick which validations you need
-	There is a complete list of Sequelize validations at https://sequelize.org/master/manual/validations-and-constraints.html#per-attribute-validations. Look through the list and determine which validations apply to the following data that we'll be inputting into our table.
+There is a complete list of Sequelize validations at https://sequelize.org/master/manual/validations-and-constraints.html#per-attribute-validations. Look through the list and determine which validations apply to the following data that we'll be inputting into our table.
 
 - first name 
 	1. not null
@@ -21,7 +22,7 @@
 - last name 
 	1. not null
 	1. allowNull must be top level
-	1. "Joel" should work, null should not work
+	1. "Hughes" should work, null should not work
 - user name 
 	1. min length, max length
 	1. must be unique - top level!
