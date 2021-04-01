@@ -1,7 +1,7 @@
 {
   "name": "sequelize-validations",
   "version": "1.0.0",
-  "description": "",
+  "description": "### Overview - What is a validation? - What's the difference between a validation and a constraint? - We'll only be focusing on validations in this course",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,13 @@
   "dependencies": {
     "pg": "^8.5.1",
     "sequelize": "^6.6.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEI-ATL-3-8/sequelize-validations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SEI-ATL-3-8/sequelize-validations/issues"
+  },
+  "homepage": "https://github.com/SEI-ATL-3-8/sequelize-validations#readme"
 }
